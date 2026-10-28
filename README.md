@@ -1,33 +1,17 @@
-# sweet_potato-source
+# Sweet Potato Mod Sources
 
 English | [简体中文](README_zh.md)
 
-Archived source branches for the Sweet Potato Minecraft mod.
 
-Archived project retained for reference.
+This is the normal Releases Sources code repository. For Special Releases, please move [here](https://github.com/Featurehouse/sweet_potato-source-specialRelease)
 
-## Overview
+Branches:  
 
-The default `master` branch is a documentation and licensing index. Source code is stored in `1.16.1`, `1.16.3` and `21w05a`. Select a source branch before building; use its `gradle.properties` to identify the actual Minecraft version.
+- ~~[Deprecated/1.16.1](https://github.com/Featurehouse/sweet_potato-source/tree/Deprecated/1.16.1)~~  
+- [LTS/1.16.5](https://github.com/Featurehouse/sweet_potato-source/tree/LTS/1.16.5)  
+- [Stable/1.17.1](https://github.com/Featurehouse/sweet_potato-source/tree/Stable/1.17.1)
+- [Snapshot/1.18.x](https://github.com/Featurehouse/sweet_potato-source/tree/Snapshot/1.18.x)  
 
-## Technology and Dependencies
-
-The example branch uses Java 8, Gradle Wrapper, Fabric Loom 0.5-SNAPSHOT, Minecraft 1.16.5, Fabric Loader, Fabric API and the Shurlin mod dependency. Dependencies are historical and their repositories may need maintenance.
-
-## Repository Structure
-
-- `README.md` — default-branch index; source branches add src/, build.gradle and Gradle Wrapper
-- `LICENSE` — current license text
-- `OLD_LICENSE` — historical license text
-
-## Quick Start
-
-Use a separate checkout of a source branch, for example:
-
-```bash
-git clone --branch 1.16.3 https://github.com/Rayawa/sweet_potato-source.git
-cd sweet_potato-source
-./gradlew build
-```
-
-Use `gradlew.bat build` on Windows. Check `gradle.properties` before installing the matching JDK/game dependencies. The default `master` branch has no build task. Consult `LICENSE` and `OLD_LICENSE` for the retained licensing material.
+#### This mod now only supports Minecraft 1.16+. For older versions. If any of you know Forge, Rift or LiteLoader and want to remake this mod, please contact us.
+#### ~~If you want to localize this mod, please give the source code a pull request! PLEASE UPDATE ALL BRANCHES INSTED OF PULL TO MASTER BRANCH OR ONLY ON BRANCH!~~
+#### For localizations: please go to our [Crowdin Page](https://crowdin.com/project/spm).
